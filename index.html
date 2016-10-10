@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Journal</title>
+  </head>
+  <body>
+    <form id="journalForm">
+      <div class="form-group">
+        <label for="titleInput">Entry Title</label>
+        <input type="text" id="titleInput">
+      </div>
+      <div class="form-group">
+        <label for="bodyInput">Body</label>
+        <input type="text" id="bodyInput">
+      </div>
+      <button type="submit">Add Entry</button>
+    </form>
+    <div class="calculations">
+      <h3 id="teaser"></h3>
+      <p id="totalWords"></p>
+      <p id="totalVowels"></p>
+      <p id="totalConsonants"></p>
+    </div>
+  </body>
+</html>
